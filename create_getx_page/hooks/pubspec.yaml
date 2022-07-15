@@ -1,0 +1,7 @@
+name: create_getx_po
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  mason: any
