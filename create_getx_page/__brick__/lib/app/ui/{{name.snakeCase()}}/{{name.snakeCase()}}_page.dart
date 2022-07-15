@@ -7,7 +7,7 @@ class {{#pascalCase}}{{name}}{{/pascalCase}}Page extends BasePage<{{#pascalCase}
 
   @override
   // TODO: implement routeName
-  String get routeName => "{{{route_name}}}";
+  String get routeName => "/{{#paramCase}}{{name}}{{/paramCase}}";
 
   @override
   Widget build(BuildContext context) {

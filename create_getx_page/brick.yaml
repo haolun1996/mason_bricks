@@ -24,7 +24,7 @@ vars:
   name:
     type: string
     description: Your file name
-    default: changepassword
+    default: change password
     prompt: What is your file name?
   required_binding:
     type: boolean
