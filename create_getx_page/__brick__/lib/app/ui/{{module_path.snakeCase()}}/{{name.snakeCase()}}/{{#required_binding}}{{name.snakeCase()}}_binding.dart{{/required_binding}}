@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:{{{package_name}}}/app/ui/{{name.snakeCase()}}/{{name.snakeCase()}}_controller.dart';
+import 'package:{{{package_name}}}/app/ui/{{module_path.snakeCase()}}/{{name.snakeCase()}}/{{name.snakeCase()}}_controller.dart';
 
 class {{#pascalCase}}{{name}}{{/pascalCase}}Binding extends Bindings {
   @override
